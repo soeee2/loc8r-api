@@ -1,0 +1,165 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
+legend {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #108a93;
+  padding-top: 70px;
+}
+
+
+/* ---------- Navigation ---------- */
+
+.navbar {
+  background-color: #ad1d28;
+}
+
+.navbar .container {
+  justify-content: flex-start;
+}
+
+.navbar-brand {
+  color: #000000;
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+
+/* ---------- Page header ---------- */
+
+.banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 15px;
+}
+
+.banner h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.banner h1 small {
+  font-size: 70%;
+  color: #bbbbbb;
+}
+
+
+/* ---------- Location card ---------- */
+
+.card {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card-block {
+  padding: 20px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card h4 a {
+  color: #ffffff;
+}
+
+.card .address {
+  margin-bottom: 12px;
+}
+
+
+/* ---------- Stars ---------- */
+
+.fas.fa-star,
+.far.fa-star {
+  color: #dddddd;
+  font-size: 14px;
+}
+
+
+/* ---------- Distance badge ---------- */
+
+.badge-default {
+  background-color: #b21f2d;
+  color: #ffffff;
+}
+
+.float-right {
+  float: right;
+}
+
+
+/* ---------- Facilities ---------- */
+
+.facilities .badge {
+  margin-right: 4px;
+}
+
+.badge-warning {
+  background-color: #f28c28;
+  color: #ffffff;
+}
+
+
+/* ---------- Right description ---------- */
+
+.lead {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.card-title {
+  color: #000000;
+}
+
+.review-card .btn-primary {
+  background-color: #ad1d28;
+  border-color: #ad1d28;
+}
+
+form .btn-primary {
+  background-color: #ad1d28;
+  border-color: #ad1d28;
+}
+
+/* 리뷰 별점 및 작성자 영역 */
+.review-header {
+  background-color: #467c86;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+/* 리뷰 내용 영역 */
+.review .col-12 p {
+  margin-top: 5px;
+}
